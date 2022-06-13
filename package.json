@@ -1,0 +1,30 @@
+{
+  "name": "video-api-session-monitoring",
+  "version": "0.1.0",
+  "description": "Example on how to use Video API Session Monitoring",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nexmo-se/video-api-session-monitoring.git"
+  },
+  "author": "Enrico Portolan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nexmo-se/video-api-session-monitoring/issues"
+  },
+  "homepage": "https://github.com/nexmo-se/video-api-session-monitoring#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "opentok": "^2.14.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}

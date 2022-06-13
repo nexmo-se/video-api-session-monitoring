@@ -1,0 +1,25 @@
+<html>
+
+<head>
+
+</head>
+
+<body>
+    <div id="roomContainer"></div>
+    <script src="https://static.opentok.com/v1/js/video-express.js"></script>
+    <script type="text/javascript">
+        const apiKey = '<%=apiKey %>';
+        const sessionId = '<%=sessionId %>';
+        const token = '<%=token %>';
+        const room = new VideoExpress.Room({
+            apiKey,
+            sessionId,
+            token,
+            roomContainer: 'roomContainer',
+        });
+
+        room.join();
+    </script>
+</body>
+
+</html>
